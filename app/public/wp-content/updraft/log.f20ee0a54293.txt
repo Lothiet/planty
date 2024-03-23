@@ -1,0 +1,7 @@
+0000.001 (0) Opened log file at time: Fri, 08 Mar 2024 13:12:56 +0000 on http://planty.local
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.23 (cgi-fcgi, Windows NT THIET 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.2M | 14M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.021 (0) Free space on disk containing Updraft's temporary directory: 42313.5 MB
+0000.033 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB: 1 (schedule: every4hours)
+0000.057 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.070 (0) Semaphore lock (fd, wp_options) failed (line 43)
+0000.077 (0) Failed to gain semaphore lock (fd) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)
