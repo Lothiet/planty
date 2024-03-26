@@ -120,17 +120,30 @@ html, body {
 }
 
 /* Page 'COMMANDE' */
-/*Lignes séparatrices horizontales*/
-.elementor-3931 .elementor-element.elementor-element-fc9778a,
-.elementor-3931 .elementor-element.elementor-element-10c7b59 {    
-    width: 860px !important;
-    margin-left: 400px;
+.wpcf7-form {
+font-family: syne;
 }
 
-/*fruits*/
+/*Titres COMMANDER*/
+.wpcf7-form .margecommander {
+font-size: 38px !important;
+font-weight: 800 !important;
+text-align: center !important;
+height: 146px;
+margin-left: 450px;
+}
+
+/*titre Vos commandes*/
+.wpcf7-form .margecommande {
+font-size: 30px !important;
+font-weight: 700 !important;
+margin-left: 292px;
+}
+    /*fruits*/
 .fruits{
     display: flex;
-    flex: row;
+    position: relative;
+    left: 292px;
 }
 
 .details-image {
@@ -139,12 +152,11 @@ html, body {
     height: 128PX!important; /* Maintenir le ratio hauteur/largeur */
 }
 
-.e-con.e-flex .e-con-inner {
-    margin-right: 70px;
+/* Les compteurs */
+.counter {
+    display:flex;
+    position: relative;
 }
-
-/* Les compteurs page Commander*/
-
 
 /* Cible le formulaire Contact Form 7  Commander*/
 
