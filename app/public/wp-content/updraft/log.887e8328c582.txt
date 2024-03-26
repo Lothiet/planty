@@ -1,0 +1,45 @@
+0000.001 (0) Opened log file at time: Tue, 26 Mar 2024 17:41:03 +0000 on http://planty.local
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.23 (cgi-fcgi, Windows NT THIET 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.5M | 16M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.018 (0) Free space on disk containing Updraft's temporary directory: 34408.4 MB
+0000.034 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB: 1 (schedule: every2hours)
+0000.050 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.078 (0) Set semaphore last lock (fd) time to 2024-03-26 17:41:03
+0000.085 (0) Semaphore lock (fd) complete
+0000.109 (0) Backup run: resumption=0, nonce=887e8328c582, file_nonce=887e8328c582 begun at=1711474863 (0s ago), job type=backup
+0000.124 (0) Scheduling a resumption (1) after 300 seconds (1711475163) in case this run gets aborted
+0000.140 (0) Checking if we have a zip executable available
+0000.155 (0) Creation of backups of directories: beginning
+0000.182 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.664 (0) Total entities for the zip file: 592 directories, 3047 files (0 skipped as non-modified), 66.7 MB
+0001.757 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.851 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.941 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.033 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.123 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.217 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.347 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.489 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.508 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 3047 files batched, 813 (813) added so far); re-opening (prior size: 0 KB)
+0018.891 (0) A useful amount of data was added after this amount of zip processing: 19.3 s (normalised: 18.8 s, rate: 1362.2 KB/s)
+0018.994 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 900 files added (on-disk size: 6189.7 KB)
+0019.064 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1000 files added (on-disk size: 6189.7 KB)
+0019.151 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1100 files added (on-disk size: 6189.7 KB)
+0019.225 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1200 files added (on-disk size: 6189.7 KB)
+0019.301 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1300 files added (on-disk size: 6189.7 KB)
+0019.374 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1400 files added (on-disk size: 6189.7 KB)
+0019.453 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1500 files added (on-disk size: 6189.7 KB)
+0019.528 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1600 files added (on-disk size: 6189.7 KB)
+0019.605 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1700 files added (on-disk size: 6189.7 KB)
+0019.674 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1800 files added (on-disk size: 6189.7 KB)
+0019.692 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.3 MB, 3047 files batched, 1001 (1814) added so far); re-opening (prior size: 6189.7 KB)
+0040.400 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 1900 files added (on-disk size: 12627 KB)
+0040.475 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2000 files added (on-disk size: 12627 KB)
+0040.555 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2100 files added (on-disk size: 12627 KB)
+0040.632 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2200 files added (on-disk size: 12627 KB)
+0040.710 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2300 files added (on-disk size: 12627 KB)
+0040.789 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2400 files added (on-disk size: 12627 KB)
+0040.865 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2500 files added (on-disk size: 12627 KB)
+0040.940 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2600 files added (on-disk size: 12627 KB)
+0041.022 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2700 files added (on-disk size: 12627 KB)
+0041.102 (0) Zip: backup_2024-03-26-1841_Planty_887e8328c582-plugins.zip.tmp: 2800 files added (on-disk size: 12627 KB)
+0041.123 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.5 MB, 3047 files batched, 1001 (2815) added so far); re-opening (prior size: 12627 KB)

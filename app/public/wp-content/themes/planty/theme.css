@@ -141,7 +141,7 @@ font-family: syne;
     width: 290px;
     height: 36px;
     margin-top: 120px;
-    margin-left: 315px;
+    margin-left: 317px;
 }
 
 .wpcf7-form .margecommande {
@@ -159,32 +159,57 @@ font-family: syne;
 
 .details-image {
     margin-left: 27px; /* Espacement entre les images */
-    width: 194px; /* Largeur fixe pour chaque image */
+    width: 194px; 
+    margin-bottom: -15px;
     height: 128px; /* Maintenir le ratio hauteur/largeur */
 }
 
 /* Les compteurs */
-.compteur {
+.wpcf7-form .compteur {
     display:flex;
     position: relative;
-        margin-left: 27px;
-
-}
-
-.compteur {
+    justify-content: center;
+    gap: 10%;
+    margin-right: 123px;
+   }
+ 
+   /*
     font-size: 16px !important;
-    font-weight: 400 !important; }
+    font-weight: 400 !important; A fAiREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 
 
 input[type="number"] {
     width: 56px !important;
- 
+    margin-left: 27px;
 }
 
 /* Cible le formulaire Contact Form 7  Commander*/
 /*Vos informations*/
-.informations {
+.wpcf7-form .informations {
+    width: 278px;
+    height: 36px;
+    margin-top: 40px;
+    margin-left: 317px;
+}
 
+.wpcf7-form .informations {
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+/*Livraison*/
+.wpcf7-form .livraison {
+    width: 149x;
+    height: 36px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.wpcf7-form .livraison {
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 700 !important;
 }
 
  /*footer*/
