@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400.&display=swap');
-/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+/* Import de la police Syne avec tous les poids */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@200;300;400;500;600;700;800&display=swap');
 
 html, body {
     font-family: 'Syne', sans-serif;
@@ -73,11 +73,11 @@ html, body {
 }
 
 /*largeur zone texte*/
-.wpcf7-form-control, .wpcf7-number, .wpcf7-validates-as-number {
+.wpcf7-form-control  {
     width: 383px !important;
     height: 71px; 
     border: none !important;
-    border-radius: 7px !important;  
+    border-radius: 7px !important;
 }
 
 .wpcf7-form label {
@@ -126,47 +126,65 @@ font-family: syne;
 
 /*Titres COMMANDER*/
 .wpcf7-form .margecommander {
-display: flex;
-position: relative;
-width: 680px;
-height: 46px;
-top: 40px;
-left: 380px;
-font-size: 38px;
-font-weight: 800;
+    margin-left: 480px !important;
+    margin-top: 49px !important;
+    width: 680px;
+}
+
+.wpcf7-form .margecommander {
+    font-size: 38px !important;
+    font-weight: 800 !important;
 }
 
 /*titre Vos commandes*/
 .wpcf7-form .margecommande {
-font-size: 30px !important;
-font-weight: 700 !important;
+    width: 290px;
+    height: 36px;
+    margin-top: 120px;
+    margin-left: 315px;
 }
+
+.wpcf7-form .margecommande {
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
     /*fruits*/
-.fruits,
-.margecommande{
+.fruits {
     display: flex;
     position: relative;
     margin-left: 292px;
 }
 
 .details-image {
-    margin: 27px; /* Espacement entre les images */
+    margin-left: 27px; /* Espacement entre les images */
     width: 194px; /* Largeur fixe pour chaque image */
-    height: 128PX!important; /* Maintenir le ratio hauteur/largeur */
+    height: 128px; /* Maintenir le ratio hauteur/largeur */
 }
 
 /* Les compteurs */
-.counter {
+.compteur {
     display:flex;
     position: relative;
+        margin-left: 27px;
+
+}
+
+.compteur {
+    font-size: 16px !important;
+    font-weight: 400 !important; }
+
+
+input[type="number"] {
+    width: 56px !important;
+ 
 }
 
 /* Cible le formulaire Contact Form 7  Commander*/
+/*Vos informations*/
+.informations {
 
-
-/*Ligne séparatrice verticale*/
-.elementor-3931 .elementor-element.elementor-element-aa71b70 .elementor-divider-separator {
-    width: 447px !important;
 }
 
  /*footer*/
@@ -216,6 +234,15 @@ body {
         width: 100%;
         }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+    . 
+        .details-image {
+            margin-left: 50%; /* Espacement entre les images */
+            width: 100%; /* Largeur fixe pour chaque image */
+            height: 100%!important; /* Maintenir le ratio hauteur/largeur */
+        }
+        
 
 @media only screen and (min-width: 320px) and (max-width: 656px),
 only screen and (max-width: 768px) {
