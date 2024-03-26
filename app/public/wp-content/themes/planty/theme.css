@@ -4,7 +4,6 @@
 html, body {
     font-family: 'Syne', sans-serif;
     overflow-x:hidden;
-    width: 100%
 }
 
 /*header et menu de nav*/
@@ -66,7 +65,7 @@ html, body {
     left: 312px;
 }
 
-/* Cible le formulaire Contact Form 7 */
+/* Cible le formulaire Contact Form 7  Nous contacter*/
 
 /*espace label et cadre*/
 .wpcf7-form-control {
@@ -75,7 +74,7 @@ html, body {
 
 /*largeur zone texte*/
 .wpcf7-form-control, .wpcf7-number, .wpcf7-validates-as-number {
-    width: 383px;
+    width: 383px !important;
     height: 71px; 
     border: none !important;
     border-radius: 7px !important;  
@@ -128,19 +127,27 @@ html, body {
     margin-left: 400px;
 }
 
-/*Images fruits*/
-.elementor-3931 .elementor-element.elementor-element-6deba58,
-.elementor-3931 .elementor-element.elementor-element-7b68340,
-.elementor-3931 .elementor-element.elementor-element-5559de1,
-.elementor-3931 .elementor-element.elementor-element-d875947 {  
-    width: 194px;
-    height: 128px !important;
-    margin-left: 27px;
+/*fruits*/
+.fruits{
+    display: flex;
+    flex: row;
+}
+
+.details-image {
+    margin: 27px; /* Espacement entre les images */
+    width: 194px; /* Largeur fixe pour chaque image */
+    height: 128PX!important; /* Maintenir le ratio hauteur/largeur */
 }
 
 .e-con.e-flex .e-con-inner {
     margin-right: 70px;
 }
+
+/* Les compteurs page Commander*/
+
+
+/* Cible le formulaire Contact Form 7  Commander*/
+
 
 /*Ligne séparatrice verticale*/
 .elementor-3931 .elementor-element.elementor-element-aa71b70 .elementor-divider-separator {
