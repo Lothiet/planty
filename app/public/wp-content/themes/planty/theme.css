@@ -126,24 +126,27 @@ font-family: syne;
 
 /*Titres COMMANDER*/
 .wpcf7-form .margecommander {
-font-size: 38px !important;
-font-weight: 800 !important;
-text-align: center !important;
-height: 146px;
-margin-left: 450px;
+display: flex;
+position: relative;
+width: 680px;
+height: 46px;
+top: 40px;
+left: 380px;
+font-size: 38px;
+font-weight: 800;
 }
 
 /*titre Vos commandes*/
 .wpcf7-form .margecommande {
 font-size: 30px !important;
 font-weight: 700 !important;
-margin-left: 292px;
 }
     /*fruits*/
-.fruits{
+.fruits,
+.margecommande{
     display: flex;
     position: relative;
-    left: 292px;
+    margin-left: 292px;
 }
 
 .details-image {
