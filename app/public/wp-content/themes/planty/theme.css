@@ -140,7 +140,7 @@ font-family: syne;
 .wpcf7-form .margecommande {
     width: 290px;
     height: 36px;
-    margin-top: 120px;
+    margin-top: 50px;
     margin-left: 317px;
 }
 
@@ -155,6 +155,7 @@ font-family: syne;
     display: flex;
     position: relative;
     margin-left: 292px;
+    margin-top: 35px;
 }
 
 .details-image {
@@ -212,8 +213,22 @@ input[type="number"] {
     font-weight: 700 !important;
 }
 
- /*footer*/
+.separator,
+.separator2 {
+    width: 860px;
+    border: 1px solid #FFFFFF;
+    margin-top: 60px;
+    margin-left: 315px ; /* Espace au-dessus et en dessous de la ligne */
+}
 
+.separator2 {
+    margin-top: 30px;
+}
+
+.separatorverticale {
+    
+}
+ /*footer*/
 #site-footer{ 
     width: 100%;
     height: 60px;
@@ -255,19 +270,38 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
+.wpcf7-form-control  {
+width: 90% !important ;
+    height: 51px; 
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+.wpcf7-submit {   
+        width: 30% !important; 
+        height: 55px !important;
+        margin-left: 55px;
+
+    margin-right: 80px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
     .wpcf7-textarea {   
-        width: 100%;
+        width: 90% !important; 
+    height: 50% !important;
         }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
-    . 
-        .details-image {
-            margin-left: 50%; /* Espacement entre les images */
-            width: 100%; /* Largeur fixe pour chaque image */
-            height: 100%!important; /* Maintenir le ratio hauteur/largeur */
-        }
+.fruits {
+  
         
+    }  
+.details-image {
+   
+    }
+}        
 
 @media only screen and (min-width: 320px) and (max-width: 656px),
 only screen and (max-width: 768px) {
