@@ -169,10 +169,10 @@ font-family: syne;
 .wpcf7-form .compteur {
     display:flex;
     position: relative;
-    justify-content: center;
-    gap: 10%;
-    margin-right: 123px;
-   }
+    gap: 11%;
+    margin-bottom: 10px;   
+    margin-left: 25%;
+}
  
    /*
     font-size: 16px !important;
@@ -181,16 +181,14 @@ font-family: syne;
 
 input[type="number"] {
     width: 56px !important;
-    margin-left: 27px;
+    margin-left: 19px;
 }
 
-/* Cible le formulaire Contact Form 7  Commander*/
 /*Vos informations*/
 .wpcf7-form .informations {
     width: 278px;
     height: 36px;
     margin-top: 40px;
-    margin-left: 317px;
 }
 
 .wpcf7-form .informations {
@@ -204,17 +202,40 @@ input[type="number"] {
     width: 149x;
     height: 36px;
     margin-top: 40px;
-    margin-left: 180px;
 }
 
 .wpcf7-form .livraison {
     text-align: center;
     font-size: 30px !important;
     font-weight: 700 !important;
+    margin-left: 180px;
 }
 
+/* Cible le formulaire Contact Form 7  Commander*/
+/*les colonnes*/
+.wpcf7-form-control {
+    display: flex;
+justify-content: space-between;
+}
+
+.two-columns {
+    margin-left: 315px;
+}
+
+.bouton-commande {
+    width: 198px !important; 
+    height: 55px !important;
+    top: 1675px !important;
+    left: 621px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color:#FFFFFF !important;
+    background-color:#E0B9B4 !important;
+    margin-left: 42%;
+    margin-top: 30px;
+}
 .separator,
-.separator2 {
+.separator2,{
     width: 860px;
     border: 1px solid #FFFFFF;
     margin-top: 60px;
@@ -226,7 +247,10 @@ input[type="number"] {
 }
 
 .separatorverticale {
-    
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg); /* Angle de rotation de 45 degrés */
+    width: 447px;
+    margin-left: 523px;
 }
  /*footer*/
 #site-footer{ 
@@ -237,11 +261,8 @@ input[type="number"] {
     padding-right: 45%;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-width: 100%;
-    }
-} 
+
+/*media quiery*/
 
 @media only screen and (max-width: 768px) {
     .menu-item.admin-link {
@@ -249,7 +270,7 @@ width: 100%;
     }
   }
 
-  @media (min-width:1200px) {
+ @media (min-width:1200px) {
     .page-header,
     .site-header .header-inner,
     .site-main {
@@ -262,6 +283,10 @@ body {
     width: 100%;
     }
 }
+
+wpcf7-form .compteur {
+ 
+   }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form label.contact {  
