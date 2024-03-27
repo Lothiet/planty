@@ -70,6 +70,7 @@ html, body {
 /*espace label et cadre*/
 .wpcf7-form-control {
     margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 /*largeur zone texte*/
@@ -228,24 +229,23 @@ input[type="number"] {
     border: 1px solid #FFFFFF;
     transform: rotate(90deg); /* Angle de rotation de 45 degrés */
     width: 447px;
+    margin-bottom: 50%;
 }
 
 /*les colonnes*/
-.culumn{
-    margin-left: 50px;
-}
-.wpcf7-form-control { display: flex;
+.wpcf7-form-control {
+    display: flex;
     justify-content: space-between;
 }
 
 .column {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 230px ;
 }
-
 .two-columns {
-    display: block;
-width: 400px;}
+    margin-left: 90px ;
+}
 
 .bouton-commande {
     width: 198px !important; 
