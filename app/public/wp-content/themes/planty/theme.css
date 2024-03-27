@@ -238,11 +238,14 @@ input[type="number"] {
     justify-content: space-between;
 }
 
-.two-columns {
+.column {
     display: flex;
     justify-content: space-between;
-    margin-left: 315px;
 }
+
+.two-columns {
+    display: block;
+width: 400px;}
 
 .bouton-commande {
     width: 198px !important; 
