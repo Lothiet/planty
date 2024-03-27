@@ -191,12 +191,13 @@ input[type="number"] {
     width: 278px;
     height: 36px;
     margin-top: 40px;
+    margin-bottom: 29px;
 }
 
 .wpcf7-form .informations {
     text-align: center;
     font-size: 30px !important;
-    font-weight: 700 !important;
+    font-weight: 700 !important;    
 }
 
 /*Livraison*/
@@ -204,7 +205,7 @@ input[type="number"] {
     width: 149px;
     height: 36px;
     margin-top: 40px;
-    margin-left: 180px;
+    margin-bottom: 29px;
 }
 
 .wpcf7-form .livraison {
@@ -213,6 +214,7 @@ input[type="number"] {
     font-weight: 700 !important;
 }
 
+/*separator*/
 .separator,
 .separator2 {
     width: 860px;
@@ -228,8 +230,9 @@ input[type="number"] {
 .separatorverticale {
     border: 1px solid #FFFFFF;
     transform: rotate(90deg); /* Angle de rotation de 45 degrés */
-    width: 447px;
-    margin-bottom: 50%;
+    margin-top: -240px;
+    width: 430px;
+    margin-left: 535px;
 }
 
 /*les colonnes*/
@@ -241,10 +244,11 @@ input[type="number"] {
 .column {
     display: flex;
     flex-direction: row;
-    margin-left: 230px ;
+    margin-left: 230px;
 }
+
 .two-columns {
-    margin-left: 90px ;
+    margin-left: 90px;
 }
 
 .bouton-commande {
