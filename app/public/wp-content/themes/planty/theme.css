@@ -169,10 +169,10 @@ font-family: syne;
 .wpcf7-form .compteur {
     display:flex;
     position: relative;
-    gap: 11%;
-    margin-bottom: 10px;   
-    margin-left: 25%;
-}
+    justify-content: center;
+    gap: 10%;
+    margin-right: 123px;
+   }
  
    /*
     font-size: 16px !important;
@@ -181,9 +181,10 @@ font-family: syne;
 
 input[type="number"] {
     width: 56px !important;
-    margin-left: 19px;
+    margin-left: 27px;
 }
 
+/* Cible le formulaire Contact Form 7  Commander*/
 /*Vos informations*/
 .wpcf7-form .informations {
     width: 278px;
@@ -199,26 +200,47 @@ input[type="number"] {
 
 /*Livraison*/
 .wpcf7-form .livraison {
-    width: 149x;
+    width: 149px;
     height: 36px;
     margin-top: 40px;
+    margin-left: 180px;
 }
 
 .wpcf7-form .livraison {
     text-align: center;
     font-size: 30px !important;
     font-weight: 700 !important;
-    margin-left: 180px;
 }
 
-/* Cible le formulaire Contact Form 7  Commander*/
+.separator,
+.separator2 {
+    width: 860px;
+    border: 1px solid #FFFFFF;
+    margin-top: 60px;
+    margin-left: 315px ; /* Espace au-dessus et en dessous de la ligne */
+}
+
+.separator2 {
+    margin-top: 30px;
+}
+
+.separatorverticale {
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg); /* Angle de rotation de 45 degrés */
+    width: 447px;
+}
+
 /*les colonnes*/
-.wpcf7-form-control {
-    display: flex;
-justify-content: space-between;
+.culumn{
+    margin-left: 50px;
+}
+.wpcf7-form-control { display: flex;
+    justify-content: space-between;
 }
 
 .two-columns {
+    display: flex;
+    justify-content: space-between;
     margin-left: 315px;
 }
 
@@ -234,24 +256,7 @@ justify-content: space-between;
     margin-left: 42%;
     margin-top: 30px;
 }
-.separator,
-.separator2,{
-    width: 860px;
-    border: 1px solid #FFFFFF;
-    margin-top: 60px;
-    margin-left: 315px ; /* Espace au-dessus et en dessous de la ligne */
-}
 
-.separator2 {
-    margin-top: 30px;
-}
-
-.separatorverticale {
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg); /* Angle de rotation de 45 degrés */
-    width: 447px;
-    margin-left: 523px;
-}
  /*footer*/
 #site-footer{ 
     width: 100%;
@@ -261,8 +266,11 @@ justify-content: space-between;
     padding-right: 45%;
 }
 
-
-/*media quiery*/
+@media only screen and (max-width: 768px) {
+    body {
+width: 100%;
+    }
+} 
 
 @media only screen and (max-width: 768px) {
     .menu-item.admin-link {
@@ -270,7 +278,7 @@ justify-content: space-between;
     }
   }
 
- @media (min-width:1200px) {
+  @media (min-width:1200px) {
     .page-header,
     .site-header .header-inner,
     .site-main {
@@ -283,10 +291,6 @@ body {
     width: 100%;
     }
 }
-
-wpcf7-form .compteur {
- 
-   }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form label.contact {  
