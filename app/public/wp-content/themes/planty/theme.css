@@ -408,10 +408,40 @@ input[type="number"] {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
+    .fruits {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+} 
+    
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+    .details-image {
+        width: 75%; 
+        margin-left:5%;
+    }
+}
+
+/* Les compteurs */
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.wpcf7-form .compteur {
+    display:flex;
+    position: relative;
+    gap: 5%;
+    margin-right: 90px;
+   }
+
+input[type="number"] {
+    width: 46px !important;
+    height: 56px;
+    margin-left: 95px;
+}
+@media only screen and (max-width: 768px) and (min-width: 656px) {
     .separator,
     .separator2 {
-        width: 550px;
-        margin-left: 100px;
+        width: 660px;
+        margin-left: 50px;
 }
     
     .separator2 {
