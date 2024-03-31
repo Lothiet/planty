@@ -151,7 +151,7 @@ font-family: syne;
     font-weight: 700 !important;
 }
 
-    /*fruits*/
+ /*fruits*/
 .fruits {
     display: flex;
     position: relative;
@@ -214,27 +214,6 @@ input[type="number"] {
     font-weight: 700 !important;
 }
 
-/*separator*/
-.separator,
-.separator2 {
-    width: 860px;
-    border: 1px solid #FFFFFF;
-    margin-top: 60px;
-    margin-left: 315px ; /* Espace au-dessus et en dessous de la ligne */
-}
-
-.separator2 {
-    margin-top: 30px;
-}
-
-.separatorverticale {
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg); /* Angle de rotation de 45 degrés */
-    margin-top: -240px;
-    width: 430px;
-    margin-left: 535px;
-}
-
 /*les colonnes*/
 .wpcf7-form-control {
     display: flex;
@@ -262,6 +241,27 @@ input[type="number"] {
     background-color:#E0B9B4 !important;
     margin-left: 42%;
     margin-top: 16%;
+}
+
+/*separator*/
+.separator,
+.separator2 {
+    width: 860px;
+    border: 1px solid #FFFFFF;
+    margin-top: 60px;
+    margin-left: 315px ; /* Espace au-dessus et en dessous de la ligne */
+}
+
+.separator2 {
+    margin-top: 30px;
+}
+
+.separatorverticale {
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg); /* Angle de rotation de 45 degrés */
+    margin-top: -240px;
+    width: 430px;
+    margin-left: 535px;
 }
 
  /*footer*/
@@ -386,38 +386,39 @@ input[type="number"] {
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .margecommander {
     margin-left: 250px !important;
-    margin-top: 49px !important;
+    margin-top: 10px !important;
     }
 
 .wpcf7-form .margecommander {
-    font-size: 34px;
+    font-size: 34px !important;
     font-weight: 700 !important;
     }
 }
 
 /*vos commandes*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-    .wpcf7-form .margecommande {
-        margin-left: 83px;
-}
-
 .wpcf7-form .margecommande {
-    font-size: 20px;
-    font-weight: 600 !important;
+    margin-left: 83px;
+    margin-top: 20px;
     }
 }
 
+.wpcf7-form .margecommande {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    }
+
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-    .fruits {
+.fruits {
         display: flex;
         flex-direction: row;
-        margin-top: 5%;
+        margin-top: 2%;
         margin-left: 5%;
     }
 } 
     
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-    .details-image {
+.details-image {
         width: 75%; 
         margin-left:5%;
     }
@@ -438,14 +439,53 @@ input[type="number"] {
     margin-left: 95px;
 }
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-    .separator,
-    .separator2 {
-        width: 660px;
-        margin-left: 50px;
+.separator,
+.separator2 {
+    width: 660px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
     
-    .separator2 {
-        margin-top: 30px;
+.separator2 {
+    margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.wpcf7-form .informations,
+.wpcf7-form .livraison {
+    margin-top: 30px;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    margin-bottom: 5px;
+    } 
+}
+/*les colonnes*/
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.two-columns {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.bouton-commande {
+    width: 180px !important; 
+    height: 45px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.separatorverticale {
+    margin-top: -260px;
+    width: 430px;
+    margin-left: 168px;
     }
 }
 
