@@ -273,7 +273,7 @@ input[type="number"] {
     padding-right: 45%;
 }
 
-/*media quiery*/
+/*media quieries*/
 
 @media only screen and (max-width: 768px) {
     body {
@@ -302,6 +302,9 @@ body {
     }
 }
 
+/*@media only screen and (min-width: 320px) and (max-width: 656px*/
+/*page renconter*/
+
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form label.contact {  
     width: 40%;
@@ -310,7 +313,7 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form-control  {
-width: 90% !important ;
+    width: 90% !important ;
     height: 51px; 
     }
 }
@@ -320,37 +323,50 @@ width: 90% !important ;
         width: 30% !important; 
         height: 55px !important;
         margin-left: 55px;
-
-    margin-right: 80px;
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
-    .wpcf7-textarea {   
-        width: 90% !important; 
+.wpcf7-textarea {   
+    width: 90% !important; 
     height: 50% !important;
     }
 }
 
+/*page commander, @media only screen and (min-width: 320px) and (max-width: 656px)* */
+
 @media only screen and (min-width: 320px) and (max-width: 656px) {
-    .wpcf7-form .margecommander {
-        margin-left: -90%;
+.wpcf7-form .margecommander {
+    margin-left: 10% !important;  
+    margin-top: 5px !important;
     }
- }
+
+.wpcf7-form .margecommander {
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+.wpcf7-form .margecommande {
+    margin-left: -20px;
+    margin-top: 5px;
+    }
+}       
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
     .wpcf7-form .margecommande {
-    margin-left: -2%;
-    margin-top: -70%;
+        font-size: 24px !important;
+        font-weight: 600 !important;
     }
-}       
+}
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .fruits {
     display: flex;
     flex-direction: column;
-    margin-left: -7%;
-    margin-top: -35%;
+    margin-left: -1%;
+    margin-top: 5%;
     }
  } 
 
@@ -365,14 +381,15 @@ width: 90% !important ;
  .wpcf7-form .compteur {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    margin-top: -123%;
+    margin-top: -122%;
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
-    .counter {
-    margin-bottom: 10%;
+input[type="number"] {
+    width: 40px !important;
+    height: 45px;
+    margin-top: 30px;
     }
 }
 
@@ -381,6 +398,19 @@ input[type="number"] {
     margin-left: 110%;
     }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+    .bouton-commande {
+        width: 150px !important; 
+        height: 40px !important;
+    }
+}
+
+.bouton-commande {
+    margin-left: 16%;
+
+}
+/*@media only screen and (max-width: 768px) and (min-width: 656px)*/
 
 /*titre 'commander'*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
@@ -391,7 +421,7 @@ input[type="number"] {
 
 .wpcf7-form .margecommander {
     font-size: 34px !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     }
 }
 
@@ -401,12 +431,12 @@ input[type="number"] {
     margin-left: 83px;
     margin-top: 20px;
     }
-}
 
 .wpcf7-form .margecommande {
     font-size: 30px !important;
     font-weight: 400 !important;
     }
+}
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .fruits {
@@ -437,14 +467,16 @@ input[type="number"] {
     width: 46px !important;
     height: 56px;
     margin-left: 95px;
+    }
 }
+
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .separator,
 .separator2 {
     width: 660px;
     margin-left: 50px;
     margin-top: 30px;
-}
+    }
     
 .separator2 {
     margin-top: 20px;
@@ -467,11 +499,12 @@ input[type="number"] {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 10px;
-}
+    }
 
 .two-columns {
     margin-left: 40px;
     margin-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
@@ -488,6 +521,8 @@ input[type="number"] {
     margin-left: 168px;
     }
 }
+
+/*media queries minx-widt:320ppx qnd max-width:656px*/
 
 @media only screen and (min-width: 320px) and (max-width: 656px){
 .separator,
