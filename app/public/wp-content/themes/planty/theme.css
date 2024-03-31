@@ -408,8 +408,8 @@ input[type="number"] {
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
 .wpcf7-form .informations {
-    font-size: 24px !important;
-    font-weight: 600 !important;
+    font-size: 24px ;
+    font-weight: 600 ;
 }
 
 .wpcf7-form .informations {
@@ -426,7 +426,7 @@ input[type="number"] {
     }
     
     .two-columns {
-        margin-left: -190px !important;
+        margin-left: -190px;
     }
     
     
