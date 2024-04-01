@@ -310,7 +310,6 @@ font-family: syne;
 }
 
 /*page commander, @media only screen and (min-width: 320px) and (max-width: 656px)* */
-
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form .margecommander {
     margin-left: 10% !important;  
@@ -385,6 +384,7 @@ input[type="number"] {
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .column {
+    margin-top: -50px;
     margin-left: -70px;
     height: 900px;
     }
@@ -392,9 +392,11 @@ input[type="number"] {
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .column {
-display: grid;  
-grid-template-columns: 1fr; /* 1 colonne de largeur égale */
-gap: 10px;
+    display: grid;  
+    grid-template-columns: 1fr;/* 1 colonne de largeur égale */
+    grid-column-gap: 10px; /* Ajoute un espace de 10px entre les colonnes */
+    width: 60%
+
     }
 }  
 
