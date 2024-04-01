@@ -395,34 +395,43 @@ input[type="number"] {
 }
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
-.wpcf7-form .informations {
-    margin-top: 90%;
-    margin-left: -300px;
-    }
-
-.wpcf7-form .informations {
-    font-size: 34px;
+.wpcf7-form .informations,
+.wpcf7-form .livraison {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    } 
 }
+@media only screen and (max-width: 320px) and (min-width: 656px) {
+.wpcf7-form .informations {
+    margin-top: 80px;
+    margin-left: 60px !important;
+    }
 }
 
 /*les colonnes*/
 @media only screen and (max-width: 320px) and (min-width: 656px) {
-.column {
-    display: flex;
-    flex-direction: column;
-    }
-
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+        }
+    }  
+@media only screen and (max-width: 320px) and (min-width: 656px) {
 .two-columns {
+    margin-left: -140px !important;
+    margin-bottom: -150px;
     }
 }
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
-    .bouton-commande {
-        width: 150px !important; 
-        height: 40px !important;
+.bouton-commande {
+    width: 150px !important; 
+    height: 40px !important;
     }
 }
 
+@media only screen and (max-width: 320px) and (min-width: 656px) {
 .bouton-commande {
 margin-left: 60px !important ;
 }
@@ -440,26 +449,26 @@ margin-left: 60px !important ;
 /*titre 'commander'*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .margecommander {
-    margin-left: 230px !important;
-    margin-top: 10px !important;
-    }
-
-.wpcf7-form .margecommander {
-    font-size: 34px !important;
+    font-size: 34px !important ;
     font-weight: 600 !important;
     }
 }
 
+.wpcf7-form .margecommander {
+    margin-left: 30px !important;
+    margin-top: 20px ;
+    }
+}
 /*vos commandes*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .margecommande {
-    margin-left: 10px;
+    margin-left: 45px;
     margin-top: 20px;
     }
 
 .wpcf7-form .margecommande {
-    font-size: 30px !important;
-    font-weight: 400 !important;
+    font-size: 30px;
+    font-weight: 500;
     }
 }
 
