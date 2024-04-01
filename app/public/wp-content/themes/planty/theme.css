@@ -445,32 +445,34 @@ margin-left: 60px !important ;
 }
     
 /*@media only screen and (max-width: 768px) and (min-width: 656px)*/
-
 /*titre 'commander'*/
-@media only screen and (max-width: 768px) and (min-width: 656px) {
-.wpcf7-form .margecommander {
-    font-size: 34px !important ;
-    font-weight: 600 !important;
-    }
-}
-
-.wpcf7-form .margecommander {
-    margin-bottom: 100px ;
-    }
-}
+  
 /*vos commandes*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .margecommande {
-    margin-left: 45px;
     margin-top: 20px;
-    }
-
-.wpcf7-form .margecommande {
-    font-size: 30px;
-    font-weight: 500;
     }
 }
 
+.wpcf7-form .margecommander {
+    margin-bottom: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+.wpcf7-form .margecommander {
+    font-size: 34px !important;
+    font-weight: 600 !important;
+    margin-left: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 656px) {
+    .wpcf7-form .margecommande {
+    margin-left: 19px;    
+        }
+    }
+    
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .fruits {
         display: flex;
@@ -518,10 +520,11 @@ input[type="number"] {
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .informations,
-.wpcf7-form .livraison {
+.wpcf7-form .livraison,
+.wpcf7-form .margecommande {
     margin-top: 30px;
     font-size: 30px !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     margin-bottom: 5px;
     } 
 }
