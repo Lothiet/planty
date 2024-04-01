@@ -312,7 +312,7 @@ font-family: syne;
 /*page commander, @media only screen and (min-width: 320px) and (max-width: 656px)* */
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form .margecommander {
-    margin-left: 10% !important;  
+    margin-left: 10% !important;     
     }
 
 .wpcf7-form .margecommander {
@@ -324,7 +324,7 @@ font-family: syne;
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-form .margecommande {
     margin-left: -20px;
-    margin-top: -80px;
+    margin-top: 5px;
     }
 }       
 
@@ -340,7 +340,7 @@ font-family: syne;
     display: flex;
     flex-direction: column;
     margin-left: -1%;
-    margin-top: -10%;
+    margin-top: 5%;
     }
  } 
 
@@ -384,9 +384,8 @@ input[type="number"] {
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .column {
-    margin-top: -50px;
+    margin-top: -10px;
     margin-left: -70px;
-    height: 900px;
     }
 }
 
@@ -402,15 +401,7 @@ input[type="number"] {
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
 .bouton-commande {
-    width: 10px !important; 
-    height: 40px !important;
-    margin-left: 50px;
     }
-}
-
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-.bouton-commande {
-
 }
 
 @media only screen and (min-width: 320px) and (max-width: 656px){
@@ -429,7 +420,6 @@ input[type="number"] {
 .wpcf7-form .margecommande {
     margin-top: 10px;
     }
-}
 
 .wpcf7-form .margecommander {
     margin-bottom: 10px !important;
