@@ -124,7 +124,7 @@ font-family: syne;
 /*Titres COMMANDER*/
 .wpcf7-form .margecommander {
     margin-left: 480px !important;
-    margin-top: 49px !important;
+    margin-top: 20px !important;
     width: 680px;
 }
 
@@ -269,13 +269,6 @@ input[type="number"] {
 }
 
 /*media quieries*/
-
-@media only screen and (max-width: 768px) {
-    body {
-width: 100%;
-    }
-} 
-
 @media only screen and (max-width: 768px) {
     .menu-item.admin-link {
       display: block; /* Affiche le lien d'admi pour les écrans inférieurs à 768px */
@@ -287,13 +280,6 @@ width: 100%;
     .site-header .header-inner,
     .site-main {
     max-width:100% !important;
-    }
-}
-
-@media (max-width:320px) {
-body {
-    width: 100%;
-    height: auto;
     }
 }
 
@@ -450,7 +436,7 @@ margin-left: 60px !important ;
 /*vos commandes*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .wpcf7-form .margecommande {
-    margin-top: 20px;
+    margin-top: 10px;
     }
 }
 
@@ -533,20 +519,21 @@ input[type="number"] {
 .column {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
+    margin-left: -5px;
     }
 
 .two-columns {
-    margin-left: 40px;
-    margin-bottom: 50px;
-    }
+    margin-left: 50px;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-.bouton-commande {
-    width: 180px !important; 
-    height: 45px !important;
+    .wpcf7-form-control {
+        width: 90% !important;
+        }       
+    }
+
+.wpcf7-submit {
+    width: 198px !important;
     }
 }
 
