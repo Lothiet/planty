@@ -315,9 +315,9 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 656px) {
 .wpcf7-submit {   
-        width: 30% !important; 
-        height: 55px !important;
-        margin-left: 55px;
+    width: 30% !important; 
+    height: 55px !important;
+    margin-left: 55px;
     }
 }
 
@@ -395,6 +395,28 @@ input[type="number"] {
 }
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
+.wpcf7-form .informations {
+    margin-top: 90%;
+    margin-left: -300px;
+    }
+
+.wpcf7-form .informations {
+    font-size: 34px;
+}
+}
+
+/*les colonnes*/
+@media only screen and (max-width: 320px) and (min-width: 656px) {
+.column {
+    display: flex;
+    flex-direction: column;
+    }
+
+.two-columns {
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 656px) {
     .bouton-commande {
         width: 150px !important; 
         height: 40px !important;
@@ -402,33 +424,16 @@ input[type="number"] {
 }
 
 .bouton-commande {
-    margin-left: 16%;
-
+margin-left: 60px !important ;
 }
 
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-.wpcf7-form .informations {
-    font-size: 24px ;
-    font-weight: 600 ;
-}
-
-.wpcf7-form .informations {
-    margin-top: 80%;
+@media only screen and (min-width: 320px) and (max-width: 656px){
+.separator,
+.separator2,
+.separatorverticale {
+    display: none;
     }
 }
-
-/*les colonnes*/
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-    .column {
-        display: flex;
-        flex-direction: column;
-        margin-left: 65px;
-    }
-    
-    .two-columns {
-        margin-left: -190px;
-    }
-    
     
 /*@media only screen and (max-width: 768px) and (min-width: 656px)*/
 
@@ -539,16 +544,6 @@ input[type="number"] {
     margin-top: -260px;
     width: 430px;
     margin-left: 168px;
-    }
-}
-
-/*media queries minx-widt:320ppx and max-width:656px*/
-
-@media only screen and (min-width: 320px) and (max-width: 656px){
-.separator,
-.separator2,
-.separatorverticale {
-    display: none;
     }
 }
 
