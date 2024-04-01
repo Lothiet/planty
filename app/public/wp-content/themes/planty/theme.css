@@ -520,17 +520,17 @@ input[type="number"] {
     display: flex;
     flex-direction: row;
     }
+}
 
+@media only screen and (max-width: 768px) and (min-width: 656px) {
 .column {
     margin-left: -30px;
     height: 650px;
 }
-
-        }
+}
 @media only screen and (max-width: 768px) and (min-width: 656px) {
     .wpcf7-form-control {
         width: 90% !important;
-        height: 50px;
         }       
     }
 
@@ -542,7 +542,7 @@ input[type="number"] {
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
     .separatorverticale {
-        margin-top: -4500px;
+        margin-top: -430px;
         width: 370px;
         margin-left: 220px;
         }
