@@ -374,53 +374,29 @@ input[type="number"] {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 656px) {
-.wpcf7-form .informations {
-    margin-top: 10px; 
-    margin-left: -295px;   
-}
-}
-@media only screen and (min-width: 320px) and (max-width: 656px) {
-.wpcf7-form .informations {
-    font-size: 24px !important;
-    font-weight: 500 !important;
-    
-    }
-}
-/*Livraison*/
-@media only screen and (min-width: 320px) and (max-width: 656px) {
-.wpcf7-form .livraison {
-    margin-top: 40px;
-    margin-bottom: 29px;
-}}
-@media only screen and (min-width: 320px) and (max-width: 656px) {
-
-.wpcf7-form .livraison {
-    text-align: center;
-    font-size: 30px !important;
-    font-weight: 700 !important;
-}
-}
 /*les colonnes*/
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-    .column {
-        display: flex;
-        flex-direction: row;
-        }
-    }
-    
-    @media only screen and (max-width: 320px) and (min-width: 656px) {
-    .column {
-        margin-left: -130px;
-        height: 150px;
-    }
-    }
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-.two-columns {
-    margin-left: -140px !important;
-    margin-bottom: -150px;
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+.wpcf7-form .informations,
+.wpcf7-form .livraison {
+    font-size: 24px !important;
+    font-weight: 500 !important; 
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+.column {
+    margin-left: -70px;
+    height: 900px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 656px) {
+.column {
+display: grid;  
+grid-template-columns: 1fr; /* 1 colonne de largeur égale */
+gap: 10px;
+    }
+}  
 
 @media only screen and (max-width: 320px) and (min-width: 656px) {
 .bouton-commande {
