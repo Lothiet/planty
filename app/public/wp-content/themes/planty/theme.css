@@ -401,7 +401,7 @@ input[type="number"] {
 .separator,
 .separator2,
 .separatorverticale {
-    display: none;
+    display: none !important;
     }
 }
 
@@ -531,9 +531,9 @@ input[type="number"] {
 }
             
 @media only screen and (min-width: 320px) and (max-width: 656px),
-only screen and (max-width: 768px) {
-#site-footer {
-    display: inline; /* Assure que les mots restent sur la même ligne */
-    white-space: nowrap; /* empeche le passage à la ligne */ 
+@media only screen and (min-width: 656px) and (max-width: 768px) {
+    #site-footer {
+        display: inline; /* Assure que les mots restent sur la même ligne */
+        white-space: nowrap; /* Empêche le passage à la ligne */ 
     }
 }
