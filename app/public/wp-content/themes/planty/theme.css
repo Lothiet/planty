@@ -223,8 +223,6 @@ font-family: syne;
 .bouton-commande {
     width: 198px !important; 
     height: 55px !important;
-    top: 1675px !important;
-    left: 621px !important;
     border: none !important;
     border-radius: 5px !important;
     color:#FFFFFF !important;
@@ -393,16 +391,11 @@ input[type="number"] {
 .column {
     display: grid;  
     grid-template-columns: 1fr;/* 1 colonne de largeur égale */
-    grid-column-gap: 10px; /* Ajoute un espace de 10px entre les colonnes */
+    grid-column-gap: 10px;
     width: 60%
 
     }
 }  
-
-@media only screen and (max-width: 320px) and (min-width: 656px) {
-.bouton-commande {
-    }
-}
 
 @media only screen and (min-width: 320px) and (max-width: 656px){
 .separator,
@@ -411,18 +404,20 @@ input[type="number"] {
     display: none;
     }
 }
+
+@media only screen and (max-width: 320px) and (min-width: 656px) {
+    .bouton-commande {
+        width: 98px; 
+    }
+}
     
 /*@media only screen and (max-width: 768px) and (min-width: 656px)*/
-/*titre 'commander'*/
   
-/*vos commandes*/
+/*votre commande*/
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-.wpcf7-form .margecommande {
-    margin-top: 10px;
-    }
-
+.wpcf7-form .margecommande,
 .wpcf7-form .margecommander {
-    margin-bottom: 10px !important;
+    margin-top: 10px;
     }
 }
 
@@ -435,7 +430,7 @@ input[type="number"] {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 656px) {
-    .wpcf7-form .margecommande {
+.wpcf7-form .margecommande {
     margin-left: 19px;    
         }
     }
@@ -451,8 +446,8 @@ input[type="number"] {
     
 @media only screen and (max-width: 768px) and (min-width: 656px) {
 .details-image {
-        width: 75%; 
-        margin-left:5%;
+    width: 75%; 
+    margin-left:5%;
     }
 }
 
@@ -537,8 +532,8 @@ input[type="number"] {
             
 @media only screen and (min-width: 320px) and (max-width: 656px),
 only screen and (max-width: 768px) {
-    #site-footer {
-        display: inline; /* Assure que les mots restent sur la même ligne */
-        white-space: nowrap; /* empeche le passage à la ligne */ 
+#site-footer {
+    display: inline; /* Assure que les mots restent sur la même ligne */
+    white-space: nowrap; /* empeche le passage à la ligne */ 
     }
 }
