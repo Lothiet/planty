@@ -1,0 +1,174 @@
+0000.059 (R) [notice] Recherche de l'archive db : nom du fichier : backup_2024-04-04-1408_Planty_ed14f044c681-db.gz
+0000.060 (R) [notice] L'archive devrait peser :  251.5 KB: OK
+0000.068 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.077 (R) [notice] Décompression de la sauvegarde… (backup_2024-04-04-1408_Planty_ed14f044c681-db.gz, 0.2 Mb)
+0000.083 (R) [notice] Restauration de la base de données (cela peut prendre du temps si votre site est volumineux - en cas de dépassement de délai (ce qui arrive si votre hébergeur limite vos ressources), vous devrez utiliser une autre méthode comme phpMyAdmin)…
+0000.303 (R) [notice] Activation du mode maintenance&#8230;
+0000.350 (R) [notice] Sauvegarde de : http://planty.local
+0000.350 (R) [notice] URL de contenu : http://planty.local/wp-content
+0000.350 (R) [notice] URL des téléversements : http://planty.local/wp-content/uploads
+0000.351 (R) [notice] Ancien préfixe des tables : wp_
+0000.351 (R) [notice] Slug de l’extension UpdraftPlus : updraftplus/updraftplus.php
+0000.351 (R) [notice] Information sur le site : multisite = 0
+0000.351 (R) [notice] Information sur le site : sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.353 (R) [notice] New table prefix: hp_
+0000.372 (R) [notice] Traitement de la table (InnoDB):  wp_options - sera restauré comme : hp_options
+0000.774 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.812 (R) [notice] Atomic restore: renaming new table (hp_options) to final table name (wp_options)
+0000.914 (R) [notice] Traitement de la table (InnoDB):  wp_users - sera restauré comme : hp_users
+0001.025 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.056 (R) [notice] Atomic restore: renaming new table (hp_users) to final table name (wp_users)
+0001.091 (R) [notice] Traitement de la table (InnoDB):  wp_usermeta - sera restauré comme : hp_usermeta
+0001.198 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.225 (R) [notice] Atomic restore: renaming new table (hp_usermeta) to final table name (wp_usermeta)
+0001.259 (R) [notice] Traitement de la table (InnoDB):  wp_commentmeta - sera restauré comme : hp_commentmeta
+0001.359 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0001.392 (R) [notice] Atomic restore: renaming new table (hp_commentmeta) to final table name (wp_commentmeta)
+0001.434 (R) [notice] Traitement de la table (InnoDB):  wp_comments - sera restauré comme : hp_comments
+0001.594 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0001.634 (R) [notice] Atomic restore: renaming new table (hp_comments) to final table name (wp_comments)
+0001.676 (R) [notice] Traitement de la table (InnoDB):  wp_links - sera restauré comme : hp_links
+0001.774 (R) [notice] Atomic restore: dropping original table (wp_links)
+0001.805 (R) [notice] Atomic restore: renaming new table (hp_links) to final table name (wp_links)
+0001.852 (R) [notice] Traitement de la table (InnoDB):  wp_postmeta - sera restauré comme : hp_postmeta
+0002.059 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0002.097 (R) [notice] Atomic restore: renaming new table (hp_postmeta) to final table name (wp_postmeta)
+0002.141 (R) [notice] Traitement de la table (InnoDB):  wp_posts - sera restauré comme : hp_posts
+0002.298 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0002.374 (R) [notice] Atomic restore: renaming new table (hp_posts) to final table name (wp_posts)
+0002.432 (R) [notice] Traitement de la table (InnoDB):  wp_term_relationships - sera restauré comme : hp_term_relationships
+0002.753 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0002.792 (R) [notice] Atomic restore: renaming new table (hp_term_relationships) to final table name (wp_term_relationships)
+0002.841 (R) [notice] Traitement de la table (InnoDB):  wp_term_taxonomy - sera restauré comme : hp_term_taxonomy
+0002.978 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0003.029 (R) [notice] Atomic restore: renaming new table (hp_term_taxonomy) to final table name (wp_term_taxonomy)
+0003.068 (R) [notice] Traitement de la table (InnoDB):  wp_termmeta - sera restauré comme : hp_termmeta
+0003.192 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0003.231 (R) [notice] Atomic restore: renaming new table (hp_termmeta) to final table name (wp_termmeta)
+0003.271 (R) [notice] Traitement de la table (InnoDB):  wp_terms - sera restauré comme : hp_terms
+0003.392 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0003.433 (R) [notice] Atomic restore: renaming new table (hp_terms) to final table name (wp_terms)
+0003.469 (R) [notice] Traitement de la table (InnoDB):  wp_actionscheduler_actions - sera restauré comme : hp_actionscheduler_actions
+0003.680 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0003.728 (R) [notice] Atomic restore: renaming new table (hp_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0003.776 (R) [notice] Traitement de la table (InnoDB):  wp_actionscheduler_claims - sera restauré comme : hp_actionscheduler_claims
+0003.872 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0003.901 (R) [notice] Database queries processed: 50 in 3.80 seconds
+0003.901 (R) [notice] Atomic restore: renaming new table (hp_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0003.935 (R) [notice] Traitement de la table (InnoDB):  wp_actionscheduler_groups - sera restauré comme : hp_actionscheduler_groups
+0004.035 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0004.073 (R) [notice] Atomic restore: renaming new table (hp_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0004.107 (R) [notice] Traitement de la table (InnoDB):  wp_actionscheduler_logs - sera restauré comme : hp_actionscheduler_logs
+0004.240 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0004.274 (R) [notice] Atomic restore: renaming new table (hp_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0004.317 (R) [notice] Traitement de la table (InnoDB):  wp_e_events - sera restauré comme : hp_e_events
+0004.411 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0004.447 (R) [notice] Atomic restore: renaming new table (hp_e_events) to final table name (wp_e_events)
+0004.479 (R) [notice] Traitement de la table (InnoDB):  wp_wc_admin_note_actions - sera restauré comme : hp_wc_admin_note_actions
+0004.659 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0004.690 (R) [notice] Atomic restore: renaming new table (hp_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0004.724 (R) [notice] Traitement de la table (InnoDB):  wp_wc_admin_notes - sera restauré comme : hp_wc_admin_notes
+0004.810 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_notes)
+0004.842 (R) [notice] Atomic restore: renaming new table (hp_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0004.876 (R) [notice] Traitement de la table (InnoDB):  wp_wc_category_lookup - sera restauré comme : hp_wc_category_lookup
+0004.956 (R) [notice] Atomic restore: dropping original table (wp_wc_category_lookup)
+0004.986 (R) [notice] Atomic restore: renaming new table (hp_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0005.015 (R) [notice] Traitement de la table (InnoDB):  wp_wc_customer_lookup - sera restauré comme : hp_wc_customer_lookup
+0005.115 (R) [notice] Atomic restore: dropping original table (wp_wc_customer_lookup)
+0005.143 (R) [notice] Atomic restore: renaming new table (hp_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0005.185 (R) [notice] Traitement de la table (InnoDB):  wp_wc_download_log - sera restauré comme : hp_wc_download_log
+0005.279 (R) [notice] Atomic restore: dropping original table (wp_wc_download_log)
+0005.314 (R) [notice] Atomic restore: renaming new table (hp_wc_download_log) to final table name (wp_wc_download_log)
+0005.349 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_addresses - sera restauré comme : hp_wc_order_addresses
+0005.472 (R) [notice] Atomic restore: dropping original table (wp_wc_order_addresses)
+0005.504 (R) [notice] Atomic restore: renaming new table (hp_wc_order_addresses) to final table name (wp_wc_order_addresses)
+0005.585 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_coupon_lookup - sera restauré comme : hp_wc_order_coupon_lookup
+0005.685 (R) [notice] Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0005.718 (R) [notice] Atomic restore: renaming new table (hp_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0005.751 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_operational_data - sera restauré comme : hp_wc_order_operational_data
+0005.838 (R) [notice] Atomic restore: dropping original table (wp_wc_order_operational_data)
+0005.870 (R) [notice] Atomic restore: renaming new table (hp_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+0005.904 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_product_lookup - sera restauré comme : hp_wc_order_product_lookup
+0005.996 (R) [notice] Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0006.028 (R) [notice] Atomic restore: renaming new table (hp_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0006.064 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_stats - sera restauré comme : hp_wc_order_stats
+0006.157 (R) [notice] Atomic restore: dropping original table (wp_wc_order_stats)
+0006.186 (R) [notice] Atomic restore: renaming new table (hp_wc_order_stats) to final table name (wp_wc_order_stats)
+0006.225 (R) [notice] Traitement de la table (InnoDB):  wp_wc_order_tax_lookup - sera restauré comme : hp_wc_order_tax_lookup
+0006.315 (R) [notice] Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0006.344 (R) [notice] Atomic restore: renaming new table (hp_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0006.375 (R) [notice] Traitement de la table (InnoDB):  wp_wc_orders - sera restauré comme : hp_wc_orders
+0006.509 (R) [notice] Atomic restore: dropping original table (wp_wc_orders)
+0006.585 (R) [notice] Atomic restore: renaming new table (hp_wc_orders) to final table name (wp_wc_orders)
+0006.682 (R) [notice] Traitement de la table (InnoDB):  wp_wc_orders_meta - sera restauré comme : hp_wc_orders_meta
+0006.788 (R) [notice] Atomic restore: dropping original table (wp_wc_orders_meta)
+0006.819 (R) [notice] Atomic restore: renaming new table (hp_wc_orders_meta) to final table name (wp_wc_orders_meta)
+0006.852 (R) [notice] Traitement de la table (InnoDB):  wp_wc_product_attributes_lookup - sera restauré comme : hp_wc_product_attributes_lookup
+0006.948 (R) [notice] Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0006.983 (R) [notice] Atomic restore: renaming new table (hp_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0007.029 (R) [notice] Traitement de la table (InnoDB):  wp_wc_product_download_directories - sera restauré comme : hp_wc_product_download_directories
+0007.172 (R) [notice] Atomic restore: dropping original table (wp_wc_product_download_directories)
+0007.209 (R) [notice] Atomic restore: renaming new table (hp_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0007.249 (R) [notice] Traitement de la table (InnoDB):  wp_wc_product_meta_lookup - sera restauré comme : hp_wc_product_meta_lookup
+0007.436 (R) [notice] Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0007.471 (R) [notice] Atomic restore: renaming new table (hp_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0007.528 (R) [notice] Traitement de la table (InnoDB):  wp_wc_rate_limits - sera restauré comme : hp_wc_rate_limits
+0007.741 (R) [notice] Atomic restore: dropping original table (wp_wc_rate_limits)
+0007.776 (R) [notice] Atomic restore: renaming new table (hp_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0007.815 (R) [notice] Traitement de la table (InnoDB):  wp_wc_reserved_stock - sera restauré comme : hp_wc_reserved_stock
+0007.887 (R) [notice] Atomic restore: dropping original table (wp_wc_reserved_stock)
+0007.922 (R) [notice] Atomic restore: renaming new table (hp_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0007.960 (R) [notice] Traitement de la table (InnoDB):  wp_wc_tax_rate_classes - sera restauré comme : hp_wc_tax_rate_classes
+0008.042 (R) [notice] Database queries processed: 100 in 7.94 seconds
+0008.067 (R) [notice] Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0008.105 (R) [notice] Atomic restore: renaming new table (hp_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0008.140 (R) [notice] Traitement de la table (InnoDB):  wp_wc_webhooks - sera restauré comme : hp_wc_webhooks
+0008.266 (R) [notice] Atomic restore: dropping original table (wp_wc_webhooks)
+0008.309 (R) [notice] Atomic restore: renaming new table (hp_wc_webhooks) to final table name (wp_wc_webhooks)
+0008.366 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_api_keys - sera restauré comme : hp_woocommerce_api_keys
+0008.465 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0008.501 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0008.535 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_attribute_taxonomies - sera restauré comme : hp_woocommerce_attribute_taxonomies
+0008.738 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0008.770 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0008.805 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_downloadable_product_permissions - sera restauré comme : hp_woocommerce_downloadable_product_permissions
+0008.924 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0008.959 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0009.003 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_log - sera restauré comme : hp_woocommerce_log
+0009.110 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_log)
+0009.141 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_log) to final table name (wp_woocommerce_log)
+0009.175 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_order_itemmeta - sera restauré comme : hp_woocommerce_order_itemmeta
+0009.260 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0009.295 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0009.345 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_order_items - sera restauré comme : hp_woocommerce_order_items
+0009.474 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_items)
+0009.503 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0009.547 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_payment_tokenmeta - sera restauré comme : hp_woocommerce_payment_tokenmeta
+0009.786 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0009.829 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0009.878 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_payment_tokens - sera restauré comme : hp_woocommerce_payment_tokens
+0010.004 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0010.041 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0010.086 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_sessions - sera restauré comme : hp_woocommerce_sessions
+0010.246 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_sessions)
+0010.281 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0010.324 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_shipping_zone_locations - sera restauré comme : hp_woocommerce_shipping_zone_locations
+0010.454 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0010.492 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0010.537 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_shipping_zone_methods - sera restauré comme : hp_woocommerce_shipping_zone_methods
+0010.638 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0010.687 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0010.741 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_shipping_zones - sera restauré comme : hp_woocommerce_shipping_zones
+0010.832 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0010.869 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0010.925 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_tax_rate_locations - sera restauré comme : hp_woocommerce_tax_rate_locations
+0011.067 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0011.102 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0011.141 (R) [notice] Traitement de la table (InnoDB):  wp_woocommerce_tax_rates - sera restauré comme : hp_woocommerce_tax_rates
+0011.302 (R) [notice] Désactivation du mode maintenance&#8230;
+0011.303 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0011.337 (R) [notice] Atomic restore: renaming new table (hp_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0011.380 (R) [notice] Finished: lines processed: 135 in 11.28 seconds
+0011.381 (R) [notice] Nettoyage…
+0011.382 (R) [notice] This option was not selected.
+0011.507 (R) [notice] Restore successful!

@@ -547,10 +547,23 @@ input[type="number"] {
     }
 }
             
-@media screen and (min-width: 320px) and (max-width: 656px),
+@media screen and (min-width: 320px) and (max-width: 656px) {
+#site-footer {
+    display: inline; /* Assure que les mots restent sur la même ligne */
+    white-space: nowrap; /* Empêche le passage à la ligne */ 
+    }
+}
+
 @media screen and (min-width: 656px) and (max-width: 768px) {
-    #site-footer {
-        display: inline; /* Assure que les mots restent sur la même ligne */
-        white-space: nowrap; /* Empêche le passage à la ligne */ 
+#site-footer {
+    display: inline; /* Assure que les mots restent sur la même ligne */
+    white-space: nowrap; /* Empêche le passage à la ligne */ 
+    }
+}
+
+@media screen and (min-width: 656px) and (max-width: 768px) {
+.footer-inner {
+    margin-left: -100px !important ;
+    margin-top: 10px;
     }
 }
