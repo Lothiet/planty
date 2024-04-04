@@ -29,6 +29,9 @@ html, body {
     margin-right: 70px; /*espace rencontrer menu*/
 }
 
+#menu-1 { 
+    
+}
 /*formulaire 'nous contacter'*/
 .wpcf7-form label.contact {  
     color: black;
