@@ -10,7 +10,7 @@ Function theme_enqueue_styles()
 
 <?php
 
-
+/*var_dump($args); die* pour chercher le menu-*/
 function add_admin_link_to_menu( $items, $args ) { //Récupére le lien vers le menu d'administration//
     if ( 'menu-1' === $args->theme_location && is_user_logged_in() ) { //vérifie si le menu en cours de modification est le menu principal 
     $admin_url = esc_url(admin_url()); // Échappement pour la sécurité
