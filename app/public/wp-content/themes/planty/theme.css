@@ -29,9 +29,12 @@ html, body {
     margin-right: 70px; /*espace rencontrer menu*/
 }
 
-#menu-1 { 
-    
+.admin a:hover {
+    color: red !important;
+    font-weight: bold;
 }
+
+
 /*formulaire 'nous contacter'*/
 .wpcf7-form label.contact {  
     color: black;
