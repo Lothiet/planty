@@ -7,7 +7,7 @@ html, body {
 }
 
 /*header et menu de nav*/
-.site-header { 
+.site-header {  
     height: 80px;
     background-color: #FFFFFF;
 }
@@ -281,7 +281,7 @@ font-family: syne;
     }
   }
 
-  @media (min-width:1200px) {
+@media (min-width:1200px) {
     .page-header,
     .site-header .header-inner,
     .site-main {
@@ -424,8 +424,7 @@ input[type="number"] {
         margin-bottom: 25px;
         }
     }
-          
-    
+
 /*@media only screen and (max-width: 768px) and (min-width: 656px)*/
   
 /*votre commande*/

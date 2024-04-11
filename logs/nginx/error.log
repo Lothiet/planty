@@ -27,3 +27,4 @@
 2024/04/07 13:08:21 [error] 1104#12860: *457 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "planty.local", referrer: "http://planty.local/wp-admin/post.php?post=8&action=edit"
 2024/04/07 13:08:21 [alert] 7212#20180: OpenEvent("ngx_master_21444") failed (2: The system cannot find the file specified)
 2024/04/10 17:31:21 [alert] 944#276: OpenEvent("ngx_master_12848") failed (2: The system cannot find the file specified)
+2024/04/11 20:27:29 [alert] 10328#11048: OpenEvent("ngx_master_18836") failed (2: The system cannot find the file specified)
